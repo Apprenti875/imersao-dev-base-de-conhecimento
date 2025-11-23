@@ -57,7 +57,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repo.git
+    git clone https://github.com/Apprenti875/imersao-dev-base-de-conhecimento
     ```
 
 
