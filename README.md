@@ -80,4 +80,4 @@ Contribuições são bem-vindas! Se você quiser adicionar uma nova tecnologia �
 5.  Abra um Pull Request.
 
 ---
-Desenvolvido por David e IA GEMINI CODE ASSIT
+Desenvolvido por David e IA GEMINI CODE ASSIT, usando de base a estrutura fornecida pela imersão da Alura
