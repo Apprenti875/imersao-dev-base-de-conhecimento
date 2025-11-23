@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Base de Conhecimento</title>
+</head>
+<body>
+    <header>
+        <h1>Base de Conhecimento</h1>
+        <div class="search-container">
+            <input type="text" id="input-busca" placeholder="Digite a linguagem de programação">
+            <button id="botao-busca">Buscar</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="classificacao-tecnologias">
+            <h2>🖥️ Classificação de Tecnologias</h2>
+            <div class="classificacao-grid">
+                <article class="nodo-classificacao">
+                    <h3>🎨 Front-end (Interface)</h3>
+                    <p>O visual e a interatividade do site ou aplicativo.</p>
+                    <ul>
+                        <li><strong>Linguagens:</strong> JavaScript, TypeScript.</li>
+                        <li><strong>Estrutura/Estilo:</strong> HTML5, CSS3 (Sass/Less).</li>
+                        <li><strong>Frameworks:</strong> React, Vue.js, Angular.</li>
+                    </ul>
+                </article>
+                <article class="nodo-classificacao">
+                    <h3>⚙️ Back-end (Servidor)</h3>
+                    <p>A lógica de negócios, APIs e processamento de dados.</p>
+                    <ul>
+                        <li><strong>Linguagens:</strong> Java, C#, Python, PHP, Go (Golang).</li>
+                        <li><strong>Runtime:</strong> Node.js.</li>
+                    </ul>
+                </article>
+                <article class="nodo-classificacao">
+                    <h3>🔄 Full Stack</h3>
+                    <p>Domínio completo do desenvolvimento (Front e Back).</p>
+                    <ul>
+                        <li><strong>Stacks Populares:</strong> MERN, MEAN, .NET + Angular.</li>
+                    </ul>
+                </article>
+                <article class="nodo-classificacao">
+                    <h3>☁️ DevOps (Infra & Cloud)</h3>
+                    <p>Gerenciamento de infraestrutura, nuvem e entrega contínua (CI/CD).</p>
+                    <ul>
+                        <li><strong>Linguagens & Scripts:</strong> Go, Python, Bash (Shell Script).</li>
+                        <li><strong>IaC (Infra as Code):</strong> HCL (Terraform), Yaml (Kubernetes/Ansible).</li>
+                    </ul>
+                </article>
+                <article class="nodo-classificacao">
+                    <h3>🏭 Automação Industrial (CLP/PLC)</h3>
+                    <p>Controle de processos industriais e maquinário.</p>
+                    <ul>
+                        <li><strong>Padrão IEC 61131-3:</strong> Ladder (LD), Texto Estruturado (ST), Diagrama de Blocos (FBD).</li>
+                        <li><strong>Supervisórios:</strong> Scripts em VBScript ou C# (dependendo do SCADA).</li>
+                    </ul>
+                </article>
+                <article class="nodo-classificacao">
+                    <h3>🤖 Sistemas Embarcados (Embedded)</h3>
+                    <p>Desenvolvimento de firmware e controle direto de hardware/microcontroladores.</p>
+                    <ul>
+                        <li><strong>Linguagens:</strong> C, C++ (Padrão da indústria), Rust (Moderno/Seguro).</li>
+                        <li><strong>Baixo Nível:</strong> Assembly.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- O atributo 'defer' garante que o script seja executado após o HTML ser analisado -->
+    <script src="script.js"></script>
+</body>
+</html>
